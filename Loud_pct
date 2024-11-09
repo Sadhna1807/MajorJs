@@ -1,0 +1,19 @@
+Cloud_pct.innerHtml = response.Cloud_pct
+Feels_like.innerHtml = response.Feels_like
+Humidity.innerHtml = response.Humidity
+Max_temp.innerHtml =  response.Max_temp
+Min_temp.innerHtml = response.Min_temp
+Sunrise.innerHtml = response.Sunrise
+Sunset.innerHtml = response.Sunset
+Temp.innerHtml = response.Temp
+Wind_direction.innerHtml = response.Wind_degrees 
+Wind_speed.innerHtml = response.Wind_speed
+
+
+
+
+<input type="text" id="city" placeholder="Enter city name">
+<button id="SubmitEvent">Get Weather</button>
+<div id="weatherData"></div>
+
+
